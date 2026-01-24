@@ -76,7 +76,7 @@ body {
 
 /* Bandes blanches */
 .bootstrap-grid-overlay .grid-col {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.50);
 }
 
 /* Assure que la row prend toute la hauteur */
