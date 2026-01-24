@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Massylia | UI Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS (local) -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Bootstrap Icons -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Ton CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- LANGUAGE SWITCH -->
+  <div class="language-switch">
+    <button class="btn btn-outline-light btn-sm me-2" onclick="setLanguage('en')">
+      EN
+    </button>
+    <button class="btn btn-outline-light btn-sm" onclick="setLanguage('fr')">
+      FR
+    </button>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="container-fluid">
+      <div class="row min-vh-100 align-items-center">
+
+        <!-- TEXTE -->
+        <div class="col-lg-7 px-5 hero-text">
+
+          <h1 class="display-3 fw-bold"
+              data-en="Massylia Mahdi <br> Computer Engineering Student"
+              data-fr="Massylia Mahdi <br> Étudiante en génie informatique">
+            Massylia Mahdi <br>
+            Computer Engineering Student
+          </h1>
+
+          <p class="lead mt-4"
+             data-en="Passionate about UI/UX, web design and creating intuitive user experiences."
+             data-fr="Passionnée par le UI/UX, le web design et la création d’interfaces intuitives.">
+            Passionate about UI/UX, web design and creating intuitive user experiences.
+          </p>
+
+          <!-- ICONES -->
+          <div class="hero-icons mt-5">
+
+            <a href="mailto:massylia@email.com" class="hero-icon" title="Email">
+              <i class="bi bi-envelope-fill"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/massylia-mahdi" 
+               class="hero-icon" target="_blank" title="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/Massyliamahdi" 
+               class="hero-icon" target="_blank" title="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+
+            <a href="docs/Massylia-CV.pdf" 
+               class="hero-icon" target="_blank" title="CV">
+              <i class="bi bi-file-earmark-person-fill"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- IMAGE -->
+        <div class="col-lg-5 d-none d-lg-flex hero-image-wrapper">
+          <img 
+            src="img/massylia-hero.jpg" 
+            alt="Photo of Massylia" 
+            class="hero-image">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Language JS -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
 
