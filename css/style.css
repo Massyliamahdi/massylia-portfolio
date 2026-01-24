@@ -89,3 +89,9 @@ body {
   position: relative;
   z-index: 2;
 }
+.thin-band {
+  max-width: 8px;          /* largeur VISUELLE */
+  margin-left: auto;
+  margin-right: auto;
+}
+
