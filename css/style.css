@@ -87,7 +87,7 @@ body {
 /* Ton contenu AU-DESSUS des bandes */
 .hero-section {
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 .thin-band {
   max-width: 8px;          /* largeur VISUELLE */
@@ -95,3 +95,13 @@ body {
   margin-right: auto;
 }
 
+ /* Bande rose foncée AU-DESSUS des bandes */
+.pink-section-bg {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background-color: #f7cfe1;
+  z-index: 2;   /* 🔥 PLUS HAUT que la grille */
+}
