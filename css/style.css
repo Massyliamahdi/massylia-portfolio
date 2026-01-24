@@ -101,7 +101,7 @@ body {
   top: 120px;
   left: 0;
   width: 100%;
-  height: 500px;
-  background-color: #f7cfe1;
+  height: 600px;
+  background-color: rgba(247, 207, 225, 0.65);
   z-index: 2;   /* 🔥 PLUS HAUT que la grille */
 }
