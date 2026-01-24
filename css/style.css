@@ -64,3 +64,28 @@ body {
   transform: translateY(-3px);
   opacity: 1;
 }
+/* ===== BOOTSTRAP GRID OVERLAY ===== */
+.bootstrap-grid-overlay {
+  position: fixed;
+  inset: 0;              /* top:0; right:0; bottom:0; left:0 */
+  height: 100vh;
+  width: 100%;
+  pointer-events: none; /* ne bloque pas les clics */
+  z-index: 1;
+}
+
+/* Bandes blanches */
+.bootstrap-grid-overlay .grid-col {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Assure que la row prend toute la hauteur */
+.bootstrap-grid-overlay .row {
+  height: 100%;
+}
+
+/* Ton contenu AU-DESSUS des bandes */
+.hero-section {
+  position: relative;
+  z-index: 2;
+}
