@@ -19,11 +19,18 @@ body {
 
 .hero-text h1 {
   line-height: 1.1;
+  font-size: 144px;
+  font-weight: 400;
+  letter-spacing: -14.4px;
 }
 
 .hero-text p {
   max-width: 600px;
   color: #4b5563;
+  font-style: italic;
+  font-size: 40px;
+  letter-spacing: -1.4px;
+  font-weight: 400;
 }
 
 /* IMAGE */
