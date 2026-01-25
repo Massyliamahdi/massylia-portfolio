@@ -22,8 +22,8 @@ body {
 
 .language-toggle button {
   background-color: transparent;
-  color: #52314e;
-  border-color: #52314e;
+  color: #2D2D2D;
+  border-color: #2D2D2D;
   border: none;
   border-radius: 999px;
   padding: 6px 14px;
@@ -37,7 +37,7 @@ body {
 .language-toggle button:hover {
   transform: translateY(-1px);
   box-shadow: 0 10px 26px rgba(0,0,0,0.2);
-  background-color: #52314e;
+  background-color: #eb0c74;
 }
 
 
@@ -55,7 +55,7 @@ body {
 
 .hero-text p {
   max-width: 600px;
-  color: #4b5563;
+  color: #2D2D2D;
   font-style: italic;
   font-size: 25px;
   letter-spacing: -1.4px;
@@ -95,7 +95,7 @@ body {
 }
 
 .social-vertical a {
-  color: #2b2b3a;
+  color: #2D2D2D;
   font-size: 18px;
   opacity: 0.8;
   transition: all 0.2s ease;
@@ -104,7 +104,7 @@ body {
 .social-vertical a:hover {
   opacity: 1;
   transform: translateY(-2px);
-  color: #7c3cff; /* accent (optionnel) */
+  color: #eb0c74; /* accent (optionnel) */
 }
 
 
