@@ -10,7 +10,7 @@ body {
   top: 25px;
   right: 35px;
   z-index: 10;
-  color: #2b2b3a;
+  color: #52314e;
 }
 /* ===== LANGUAGE TOGGLE BUTTON ===== */
 .language-toggle {
@@ -37,7 +37,7 @@ body {
 .language-toggle button:hover {
   transform: translateY(-1px);
   box-shadow: 0 10px 26px rgba(0,0,0,0.2);
-  background-color:
+  background-color: #52314e;
 }
 
 
