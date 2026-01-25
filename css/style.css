@@ -11,6 +11,32 @@ body {
   right: 35px;
   z-index: 10;
 }
+/* ===== LANGUAGE TOGGLE BUTTON ===== */
+.language-toggle {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  z-index: 10;   /* 🔥 AU-DESSUS de tout */
+}
+
+.language-toggle button {
+  background: #ffffff;
+  color: #2b2b3a;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.language-toggle button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.2);
+}
+
 
 /* HERO */
 .hero-section {
