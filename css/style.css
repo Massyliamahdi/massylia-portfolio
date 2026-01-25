@@ -149,3 +149,84 @@ body {
   background-color: rgba(250, 197, 221, 0.40);
   z-index: 2;   /* 🔥 PLUS HAUT que la grille */
 }
+/* ===== SECTION NAV UNDER HERO ===== */
+.section-nav {
+  position: relative;
+  z-index: 4;
+  padding: 40px 0 60px;
+}
+
+.section-nav-inner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+/* Le cercle (dot) */
+.section-nav-dot {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid #2D2D2D;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/* Le + au centre */
+.section-nav-dot::before,
+.section-nav-dot::after {
+  content: '';
+  position: absolute;
+  background: #2D2D2D;
+  transition: all 0.25s ease;
+}
+
+.section-nav-dot::before {
+  width: 14px;
+  height: 2px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-nav-dot::after {
+  width: 2px;
+  height: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Hover effet */
+.section-nav-dot:hover {
+  border-color: #eb0c74;
+}
+
+.section-nav-dot:hover::before,
+.section-nav-dot:hover::after {
+  background: #eb0c74;
+}
+
+/* Liens */
+.section-nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.section-nav-links a {
+  color: #2D2D2D;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+}
+
+.section-nav-links a:hover {
+  opacity: 1;
+  color: #eb0c74;
+}
+
