@@ -79,24 +79,32 @@ body {
 }
 
 
-/* ICONS */
-.hero-icons {
+/* ===== VERTICAL SOCIAL BAR ===== */
+.social-vertical {
+  position: fixed;
+  bottom: 32px;
+  left: 24px;
+  z-index: 20;   /* AU-DESSUS de tout */
+
   display: flex;
-  gap: 1.5rem;
+  flex-direction: column;
+  gap: 14px;
 }
 
-.hero-icon {
-  font-size: 1.8rem;
-  color: #3b3b6d;
-  opacity: 0.85;
-  transition: all 0.3s ease;
+.social-vertical a {
+  color: #2b2b3a;
+  font-size: 18px;
+  opacity: 0.8;
+  transition: all 0.2s ease;
 }
 
-.hero-icon:hover {
-  color: #5b3cc4;
-  transform: translateY(-3px);
+.social-vertical a:hover {
   opacity: 1;
+  transform: translateY(-2px);
+  color: #7c3cff; /* accent (optionnel) */
 }
+
+
 /* ===== BOOTSTRAP GRID OVERLAY ===== */
 .bootstrap-grid-overlay {
   position: fixed;
