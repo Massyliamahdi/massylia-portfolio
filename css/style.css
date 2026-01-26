@@ -81,6 +81,13 @@ body {
   border-radius: 16px;
 }
 
+.hero-image-wrapper {
+  display: flex;
+  align-items: center;     /* centre verticalement */
+  padding-right: 40px;    /* 🔑 ajuste finement */
+}
+
+
 
 /* ===== VERTICAL SOCIAL BAR ===== */
 .social-vertical {
