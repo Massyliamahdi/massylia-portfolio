@@ -85,7 +85,7 @@ body {
   display: flex;
   align-items: center;     /* centre verticalement */
   padding-right: 40px;    /* ajuste finement */
-  margin-top: -70px;
+  margin-top: -90px;
 }
 
 
@@ -162,6 +162,7 @@ body {
   position: relative;
   z-index: 4;
   padding: 20px 0 60px;
+  margin-top: -40px; 
 }
 
 .section-nav-inner {
