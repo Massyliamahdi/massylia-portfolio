@@ -159,7 +159,7 @@ body {
 .section-nav-inner {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 14px;
 
   /* 🔥 Décalage vers la droite (clé UX) */
   margin-left: 90px;   /* ajuste: 70px, 100px, 120px */
