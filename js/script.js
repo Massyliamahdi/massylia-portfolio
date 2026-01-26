@@ -47,3 +47,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const savedLang = localStorage.getItem('portfolioLang') || 'en';
   setLanguage(savedLang);
 });
+// SECTION NAV TOGGLE
+document.addEventListener('DOMContentLoaded', () => {
+  const navInner = document.querySelector('.section-nav-inner');
+  const navDot = document.querySelector('.section-nav-dot');
+
+  if (navInner && navDot) {
+    navDot.addEventListener('click', () => {
+      navInner.classList.toggle('open');
+    });
+  }
+});
+
