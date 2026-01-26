@@ -154,7 +154,7 @@ body {
   left: 0;
   width: 100%;
   height: 650px;
-  background-color: rgba(250, 197, 221, 0.40);
+  background-color: rgba(247, 183, 212, 0.40);
   z-index: 2;   /* 🔥 PLUS HAUT que la grille */
 }
 /* ===== SECTION NAV UNDER HERO (IMPROVED) ===== */
