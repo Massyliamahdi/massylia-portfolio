@@ -149,7 +149,7 @@ body {
   background-color: rgba(250, 197, 221, 0.40);
   z-index: 2;   /* 🔥 PLUS HAUT que la grille */
 }
-/* ===== SECTION NAV UNDER HERO ===== */
+/* ===== SECTION NAV UNDER HERO (IMPROVED) ===== */
 .section-nav {
   position: relative;
   z-index: 4;
@@ -160,6 +160,20 @@ body {
   display: flex;
   align-items: center;
   gap: 18px;
+
+  /* 🔥 Décalage vers la droite (clé UX) */
+  margin-left: 90px;   /* ajuste: 70px, 100px, 120px */
+}
+
+/* Label "Know more about me" */
+.section-nav-label {
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2D2D2D;
+  opacity: 0.7;
+  white-space: nowrap;
+  transition: all 0.3s ease;
 }
 
 /* Le cercle (dot) */
@@ -174,7 +188,7 @@ body {
   transition: all 0.25s ease;
 }
 
-/* Le + au centre */
+/* Le + */
 .section-nav-dot::before,
 .section-nav-dot::after {
   content: '';
@@ -199,7 +213,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* Hover effet */
+/* Hover */
 .section-nav-dot:hover {
   border-color: #eb0c74;
 }
@@ -209,24 +223,62 @@ body {
   background: #eb0c74;
 }
 
-/* Liens */
+/* LINKS CACHÉS AU DÉPART */
 .section-nav-links {
   display: flex;
   gap: 24px;
+
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-10px);
+  transition: all 0.35s ease;
 }
 
+/* ÉTAT OUVERT */
+.section-nav-inner.open .section-nav-links {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+/* Animation séquentielle */
 .section-nav-links a {
   color: #2D2D2D;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: all 0.3s ease;
+}
+
+.section-nav-inner.open .section-nav-links a {
   opacity: 0.7;
-  transition: all 0.2s ease;
+  transform: translateY(0);
+}
+
+.section-nav-inner.open .section-nav-links a:nth-child(1) {
+  transition-delay: 0.05s;
+}
+
+.section-nav-inner.open .section-nav-links a:nth-child(2) {
+  transition-delay: 0.15s;
 }
 
 .section-nav-links a:hover {
   opacity: 1;
   color: #eb0c74;
+}
+
+/* + devient × */
+.section-nav-inner.open .section-nav-dot::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+/* Cacher le label quand ouvert */
+.section-nav-inner.open .section-nav-label {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-10px);
 }
 
