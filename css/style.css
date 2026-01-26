@@ -84,7 +84,8 @@ body {
 .hero-image-wrapper {
   display: flex;
   align-items: center;     /* centre verticalement */
-  padding-right: 40px;    /* 🔑 ajuste finement */
+  padding-right: 40px;    /* ajuste finement */
+  margin-top: -40px;
 }
 
 
