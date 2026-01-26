@@ -161,7 +161,7 @@ body {
 .section-nav {
   position: relative;
   z-index: 4;
-  padding: 40px 0 60px;
+  padding: 20px 0 60px;
 }
 
 .section-nav-inner {
@@ -169,7 +169,7 @@ body {
   align-items: center;
   gap: 14px;
 
-  /* 🔥 Décalage vers la droite (clé UX) */
+  /* Décalage vers la droite (clé UX) */
   margin-left: 90px;   /* ajuste: 70px, 100px, 120px */
 }
 
