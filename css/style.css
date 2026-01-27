@@ -176,6 +176,7 @@ body {
 .section-nav-inner {
   display: flex;
   align-items: center;
+  gap: 14px;
  
 
   /* Décalage vers la droite (clé UX) */
@@ -195,8 +196,8 @@ body {
 
 /* Le cercle (dot) */
 .section-nav-dot {
-  width: 42px;
-  height: 42px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   background: transparent;
   border: 2px solid #2D2D2D;
@@ -243,7 +244,7 @@ body {
 /* LINKS CACHÉS AU DÉPART */
 .section-nav-links {
   display: flex;
-  gap: 24px;
+  gap: 14px;
 
   opacity: 0;
   pointer-events: none;
