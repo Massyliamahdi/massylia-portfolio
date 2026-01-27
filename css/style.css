@@ -244,7 +244,7 @@ body {
 /* LINKS CACHÉS AU DÉPART */
 .section-nav-links {
   display: flex;
-  gap: 14px;
+  gap: 8px;
 
   opacity: 0;
   pointer-events: none;
@@ -263,7 +263,7 @@ body {
 .section-nav-links a {
   color: #2D2D2D;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   opacity: 0;
