@@ -249,7 +249,7 @@ body {
 /* LINKS CACHÉS AU DÉPART */
 .section-nav-links {
   display: flex;
-  gap: 14px;
+  gap: 20px;
 
   opacity: 0;
   pointer-events: none;
