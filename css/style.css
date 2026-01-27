@@ -27,8 +27,8 @@ body {
   border: none;
   border-radius: 999px;
   padding: 6px 14px;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 650;
+  font-size: 20px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   cursor: pointer;
   transition: all 0.2s ease;
@@ -309,7 +309,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
   margin-top: 60px;
-   z-index: 3;
+   z-index: 10;
 }
 
 .project-card {
@@ -320,6 +320,7 @@ body {
   padding: 24px;
   text-align: center;
   transition: transform 0.3s ease;
+  z-index: 10;
 }
 
 .project-card:hover {
