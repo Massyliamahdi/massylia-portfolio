@@ -68,8 +68,8 @@ body {
 
 /* IMAGE */
 .hero-photo-frame {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 20px 50px rgba(0,0,0,0.35);
