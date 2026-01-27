@@ -196,6 +196,7 @@ body {
   white-space: nowrap;
   transition: all 0.3s ease;
   position: absolute;  
+  left: 70px;
 }
 
 /* Le cercle (dot) */
