@@ -45,12 +45,16 @@ body {
 .hero-section {
   overflow: hidden;
 }
+.hero-text{
+  margin-top: -40px;
+}
 
 .hero-text h1 {
   line-height: 1.1;
   font-size: 80px;
   font-weight: 500;
   letter-spacing: -2.8px;
+  margin-bottom: 20px;
 }
 
 .hero-text h2 {
@@ -78,6 +82,7 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+  object-position: top; 
 }
 
 .hero-image-wrapper {
