@@ -376,14 +376,14 @@ body {
   display: block;
   margin: 0 auto 16px auto;
 }
-.experience-logo-government{
+.experience-logo.government{
     width: 20px;
   height: auto;
   display: block;
   margin: 0 auto 16px auto;
 }
-.experience-logo-city{
-  width: 50px;
+.experience-logo.city{
+  width: 160px;
   height: auto;
   display: block;
   margin: 0 auto 16px auto;
