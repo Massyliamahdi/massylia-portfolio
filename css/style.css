@@ -365,7 +365,7 @@ body {
   border-radius: 8px;
 }
 .experience-logo-mint{
-  width: 150px;
+  width: 100px;
   height: auto;
   display: block;
   margin: 0 auto 16px auto;
@@ -380,11 +380,13 @@ body {
   max-width: 250px;
   height: auto;
   display: block;
+  object-fit: contain;
   margin: 0 auto 16px auto;
 }
 .experience-logo.city{
   width: 250px;
   height: auto;
   display: block;
+   object-fit: contain;
   margin: 0 auto 16px auto;
 }
