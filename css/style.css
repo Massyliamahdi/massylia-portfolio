@@ -377,7 +377,7 @@ body {
   margin: 0 auto 16px auto;
 }
 .experience-logo.government{
-    width: 20px;
+  max-width: 120px;
   height: auto;
   display: block;
   margin: 0 auto 16px auto;
