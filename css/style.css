@@ -363,5 +363,11 @@ body {
   background-color: white;
   border-radius: 8px;
 }
+.experience-logo-mint{
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 16px auto;
+}
 
 
