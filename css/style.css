@@ -378,8 +378,8 @@ body {
   margin: 0 auto 16px auto;
 }
 .experience-logo.government{
-  width: 100px;           /* Prend toute la largeur du conteneur */
-  height:200px; 
+  width: 300px;           /* Prend toute la largeur du conteneur */
+  height:400px; 
   display: block;
   margin: 0 auto 16px auto;
 }
