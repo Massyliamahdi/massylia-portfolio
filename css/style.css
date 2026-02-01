@@ -419,7 +419,7 @@ body {
 
 .hello-text-wrapper {
   position: relative;
-  left: 200px; /* déplace tout le texte vers la droite */
+  left: 250px; /* déplace tout le texte vers la droite */
  
 }
 
@@ -430,6 +430,8 @@ body {
   margin-bottom: 16px;
   color: #2D2D2D;
   margin-left: auto;
+  position: relative;
+  top: -10px;
 }
 
 .mini-intro {
