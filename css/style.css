@@ -70,8 +70,8 @@ body {
 
 /* IMAGE */
 .hero-photo-frame {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 20px 50px rgba(0,0,0,0.35);
@@ -408,6 +408,7 @@ body {
   font-family: 'Preahvihear', sans-serif;
   font-size: 1rem;
   color: #2D2D2D;
+  gap: 12px; 
 }
 
 .curved-arrow-img {
