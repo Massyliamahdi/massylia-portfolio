@@ -26,9 +26,9 @@ body {
   border-color: #2D2D2D;
   border: none;
   border-radius: 999px;
-  padding: 6px 14px;
+  padding: 12px 22px;
   font-weight: 650;
-  font-size: 20px;
+  font-size: 24px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   cursor: pointer;
   transition: all 0.2s ease;
