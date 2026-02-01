@@ -401,20 +401,25 @@ body {
 
 .hero-arrow-text-top {
   position: absolute;
-  top: -100px; /* distance au-dessus de la photo */
+  top: -100px;
   left: 50%;
-  margin-left:80px; /* distance au-dessus de la photo */
   transform: translateX(-50%);
-  text-align: center;
+  text-align: left;
   font-family: 'Preahvihear', sans-serif;
-  font-size: 1rem;
   color: #2D2D2D;
-  gap: 12px; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .curved-arrow-img {
   width: 120px;
   height: auto;
+}
+
+.hello-text-wrapper {
+  margin-left: 80px; /* ✅ déplace tout le texte vers la droite */
+  max-width: 300px;
 }
 
 .hello-text {
