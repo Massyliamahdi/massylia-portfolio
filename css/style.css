@@ -392,6 +392,7 @@ body {
   margin: 0 auto 16px auto;
 }
 .hero-image-wrapper {
+  margin-left: 90px;
   position: relative;
   display: flex;
   flex-direction: column;
