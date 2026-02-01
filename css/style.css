@@ -367,7 +367,7 @@ body {
 }
 .experience-logo-mint{
   width: 100px;
-  height:300px;
+  height:200px;
   display: block;
   margin: 0 auto 16px auto;
 }
@@ -378,10 +378,9 @@ body {
   margin: 0 auto 16px auto;
 }
 .experience-logo.government{
-  width: 100%;           /* Prend toute la largeur du conteneur */
-  max-width: 400px; 
+  width: 100px;           /* Prend toute la largeur du conteneur */
+  height:200px; 
   display: block;
-  object-fit: contain;
   margin: 0 auto 16px auto;
 }
 .experience-logo.city{
