@@ -378,8 +378,8 @@ body {
   margin: 0 auto 16px auto;
 }
 .experience-logo.government{
-  width: 600px;
-  height: auto;
+  width: 100%;           /* Prend toute la largeur du conteneur */
+  max-width: 300px; 
   display: block;
   object-fit: contain;
   margin: 0 auto 16px auto;
