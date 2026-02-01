@@ -391,15 +391,23 @@ body {
    object-fit: contain;
   margin: 0 auto 16px auto;
 }
+.hero-arrow-text {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  color: #2D2D2D;
+}
+
 .curved-arrow {
-  width: 180px;              /* taille de la flèche */
+  width: 180px;
   height: 90px;
   border: 4px solid transparent;
-  border-top: 4px solid #2D2D2D;   /* partie courbée */
+  border-top: 4px solid #2D2D2D;
   border-right: 4px solid #2D2D2D;
-  border-radius: 120px 120px 0 0;  /* courbure */
-  transform: rotate(-135deg);      /* ↙ direction vers ta photo */
+  border-radius: 120px 120px 0 0;
+  transform: rotate(-135deg);
   position: relative;
+  margin: 0 auto;
 }
 
 .curved-arrow::after {
@@ -407,9 +415,9 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  border-right: 4px solid #2D2D2D;   /* pointe */
+  border-right: 4px solid #2D2D2D;
   border-bottom: 4px solid #2D2D2D;
   right: -2px;
   bottom: -2px;
-  transform: rotate(45deg);          /* angle de la pointe */
+  transform: rotate(45deg);
 }
