@@ -415,6 +415,8 @@ body {
 .curved-arrow-img {
   width: 120px;
   height: auto;
+  position: relative;
+  left: 20px;
 }
 
 .hello-text-wrapper {
@@ -431,7 +433,7 @@ body {
   color: #2D2D2D;
   margin-left: auto;
   position: relative;
-  top: -10px;
+  top: -20px;
 }
 
 .mini-intro {
