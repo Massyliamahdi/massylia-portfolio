@@ -415,5 +415,5 @@ body {
 }
 
 .curved-arrow-img.flipped {
-  transform: rotate(180deg); /* retourne la flèche vers le bas */
+  /* retourne la flèche vers le bas */
 }
