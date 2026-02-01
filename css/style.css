@@ -415,6 +415,21 @@ body {
   height: auto;
 }
 
-.curved-arrow-img.flipped {
-  /* retourne la flèche vers le bas */
+.hello-text {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #2D2D2D;
 }
+
+.mini-intro {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
