@@ -418,7 +418,8 @@ body {
 }
 
 .hello-text-wrapper {
-  margin-left: 100px; /* ✅ déplace tout le texte vers la droite */
+  position: relative;
+  left: 80px; /* déplace tout le texte vers la droite */
  
 }
 
