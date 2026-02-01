@@ -367,7 +367,7 @@ body {
   border-radius: 8px;
 }
 .experience-logo.mint{
-  width: 300px;
+  width: 250px;
   height:360px;
   display: block;
   margin: 0 auto 16px auto;
@@ -391,31 +391,25 @@ body {
    object-fit: contain;
   margin: 0 auto 16px auto;
 }
-.hero-arrow-text {
+.curved-arrow {
+  width: 180px;              /* taille de la flèche */
+  height: 90px;
+  border: 4px solid transparent;
+  border-top: 4px solid #2D2D2D;   /* partie courbée */
+  border-right: 4px solid #2D2D2D;
+  border-radius: 120px 120px 0 0;  /* courbure */
+  transform: rotate(-135deg);      /* ↙ direction vers ta photo */
+  position: relative;
+}
+
+.curved-arrow::after {
+  content: "";
   position: absolute;
-  top: -40px;      /* ajuste selon ta image */
-  right: 220px;    /* ajuste horizontalement pour aligner la flèche */
-  text-align: left;
-  z-index: 5;
-}
-
-.hero-arrow-text p {
-  font-size: 22px; 
-  font-weight: 400;
-  margin: 0;
-  color: #2D2D2D;
-}
-
-.hero-arrow-text span {
-  color: #eb0c74;  /* ton rose accent */
-  font-weight: 600;
-}
-
-.hero-arrow {
-  width: 110px;    /* taille de la flèche */
-  margin-top: -10px;
-
-  /* si tu veux réutiliser la rotation Figma */
-  transform: rotate(-148deg);
-  transform-origin: center;
+  width: 20px;
+  height: 20px;
+  border-right: 4px solid #2D2D2D;   /* pointe */
+  border-bottom: 4px solid #2D2D2D;
+  right: -2px;
+  bottom: -2px;
+  transform: rotate(45deg);          /* angle de la pointe */
 }
