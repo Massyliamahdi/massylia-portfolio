@@ -401,8 +401,7 @@ body {
 
 .hero-arrow-text-top {
   position: absolute;
-  top: -100px; /* distance au-dessus de la photo */
-  left: 50%;
+  margin-left:80px; /* distance au-dessus de la photo */
   transform: translateX(-50%);
   text-align: center;
   font-family: 'Preahvihear', sans-serif;
