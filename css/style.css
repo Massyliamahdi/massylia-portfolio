@@ -391,24 +391,29 @@ body {
    object-fit: contain;
   margin: 0 auto 16px auto;
 }
-.hero-arrow-text {
-  text-align: center;
-  font-family: 'Georgia', serif;
-  font-size: 1rem;
-  color: #2D2D2D;
+.hero-image-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hero-arrow-text {
+.hero-arrow-text-top {
+  position: absolute;
+  top: -100px; /* distance au-dessus de la photo */
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
   font-family: 'Preahvihear', sans-serif;
   font-size: 1rem;
   color: #2D2D2D;
-  max-width: 100%;
 }
 
 .curved-arrow-img {
-  width: 150px;            /* adapte la taille */
+  width: 120px;
   height: auto;
-  margin-top: 10px;
-  transform: scaleX(-1);   /* miroir horizontal pour qu’elle pointe vers la droite */
+}
+
+.curved-arrow-img.flipped {
+  transform: rotate(180deg); /* retourne la flèche vers le bas */
 }
