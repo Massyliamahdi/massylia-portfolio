@@ -92,6 +92,7 @@ body {
   align-items: center;     /* centre verticalement */
   padding-right: 80px;    /* ajuste finement */
   margin-top: -120px;
+  position: relative;
 }
 
 
@@ -389,4 +390,32 @@ body {
   display: block;
    object-fit: contain;
   margin: 0 auto 16px auto;
+}
+.hero-arrow-text {
+  position: absolute;
+  top: -40px;      /* ajuste selon ta image */
+  right: 220px;    /* ajuste horizontalement pour aligner la flèche */
+  text-align: left;
+  z-index: 5;
+}
+
+.hero-arrow-text p {
+  font-size: 22px; 
+  font-weight: 400;
+  margin: 0;
+  color: #2D2D2D;
+}
+
+.hero-arrow-text span {
+  color: #eb0c74;  /* ton rose accent */
+  font-weight: 600;
+}
+
+.hero-arrow {
+  width: 110px;    /* taille de la flèche */
+  margin-top: -10px;
+
+  /* si tu veux réutiliser la rotation Figma */
+  transform: rotate(-148deg);
+  transform-origin: center;
 }
