@@ -398,26 +398,17 @@ body {
   color: #2D2D2D;
 }
 
-.curved-arrow {
-  width: 180px;
-  height: 90px;
-  border: 4px solid transparent;
-  border-top: 4px solid #2D2D2D;
-  border-right: 4px solid #2D2D2D;
-  border-radius: 120px 120px 0 0;
-  transform: rotate(-135deg);
-  position: relative;
-  margin: 0 auto;
+.hero-arrow-text {
+  text-align: center;
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 1rem;
+  color: #2D2D2D;
+  max-width: 100%;
 }
 
-.curved-arrow::after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-right: 4px solid #2D2D2D;
-  border-bottom: 4px solid #2D2D2D;
-  right: -2px;
-  bottom: -2px;
-  transform: rotate(45deg);
+.curved-arrow-img {
+  width: 150px;            /* adapte la taille */
+  height: auto;
+  margin-top: 10px;
+  transform: scaleX(-1);   /* miroir horizontal pour qu’elle pointe vers la droite */
 }
