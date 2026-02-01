@@ -419,7 +419,7 @@ body {
 
 .hello-text-wrapper {
   position: relative;
-  left: 80px; /* déplace tout le texte vers la droite */
+  left: 100px; /* déplace tout le texte vers la droite */
  
 }
 
