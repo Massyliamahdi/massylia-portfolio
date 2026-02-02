@@ -201,8 +201,8 @@ body {
 
 .nav-container {
   display: flex;
-  gap: 30px;
-  margin-left: 50px; /* petit espace à gauche */
+  gap: 50px;
+  margin-left: 70px; /* petit espace à gauche */
 }
 
 .nav-container a {
