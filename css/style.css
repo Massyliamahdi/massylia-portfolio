@@ -188,125 +188,35 @@ body {
   margin-left: 90px;   /* ajuste: 70px, 100px, 120px */
 }
 
-/* Label "Know more about me" */
-.section-nav-label {
-  font-size: 20px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #2D2D2D;
-  opacity: 0.7;
-  white-space: nowrap;
-  transition: all 0.3s ease;
-  position: absolute;  
-  left: 70px;
+/* === NAVBAR FIXE MINIMALISTE === */
+.main-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: transparent; /* ou rgba(255,255,255,0.3) si tu veux un effet */
+  padding: 15px 0;
 }
 
-/* Le cercle (dot) */
-.section-nav-dot {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: transparent;
-  border: 2px solid #2D2D2D;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.25s ease;
-}
-
-/* Le + */
-.section-nav-dot::before,
-.section-nav-dot::after {
-  content: '';
-  position: absolute;
-  background: #2D2D2D;
-  transition: all 0.25s ease;
-}
-
-.section-nav-dot::before {
-  width: 14px;
-  height: 2px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.section-nav-dot::after {
-  width: 2px;
-  height: 14px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* Hover */
-.section-nav-dot:hover {
-  border-color: #eb0c74;
-}
-
-.section-nav-dot:hover::before,
-.section-nav-dot:hover::after {
-  background: #eb0c74;
-}
-
-/* LINKS CACHÉS AU DÉPART */
-.section-nav-links {
+.nav-container {
   display: flex;
-  gap: 20px;
-
-  opacity: 0;
-  pointer-events: none;
-  transform: translateX(-10px);
-  transition: all 0.35s ease;
-  text-transform: uppercase;
+  gap: 30px;
+  margin-left: 50px; /* petit espace à gauche */
 }
 
-/* ÉTAT OUVERT */
-.section-nav-inner.open .section-nav-links {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translateX(0);
-}
-
-/* Animation séquentielle */
-.section-nav-links a {
+.nav-container a {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 1.1rem;
   color: #2D2D2D;
   text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.3s ease;
+  transition: color 0.3s ease;
 }
 
-.section-nav-inner.open .section-nav-links a {
-  opacity: 0.7;
-  transform: translateY(0);
-}
-
-.section-nav-inner.open .section-nav-links a:nth-child(1) {
-  transition-delay: 0.05s;
-}
-
-.section-nav-inner.open .section-nav-links a:nth-child(2) {
-  transition-delay: 0.15s;
-}
-
-.section-nav-links a:hover {
-  opacity: 1;
+.nav-container a:hover {
   color: #eb0c74;
 }
 
-/* + devient × */
-.section-nav-inner.open .section-nav-dot::after {
-  transform: translate(-50%, -50%) rotate(90deg);
-}
-/* Cacher le label quand ouvert */
-.section-nav-inner.open .section-nav-label {
-  opacity: 0;
-  pointer-events: none;
-  transform: translateX(-10px);
-}
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
