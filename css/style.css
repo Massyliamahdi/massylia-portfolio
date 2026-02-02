@@ -416,7 +416,7 @@ body {
   width: 120px;
   height: auto;
   position: relative;
-  left: 25px;
+  left: 30px;
 }
 
 .hello-text-wrapper {
@@ -427,21 +427,20 @@ body {
 
 .hello-text {
   font-family: 'Preahvihear', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 16px;
   color: #2D2D2D;
   margin-left: auto;
   position: relative;
-  top: -30px;
+  top: -35px;
   left:-10px;
 }
 
 .mini-intro {
-  font-size: 0.95rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   color: #444;
-  max-width: 260px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
