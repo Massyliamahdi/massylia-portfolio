@@ -416,13 +416,13 @@ body {
   width: 120px;
   height: auto;
   position: relative;
-  left: 50px;
+  left: 60px;
 }
 
 .hello-text-wrapper {
   position: relative;
   left: 290px; /* déplace tout le texte vers la droite */
-  max-width: 500px;
+  max-width: 800px;
  
 }
 
@@ -436,6 +436,7 @@ body {
   position: relative;
   top: -60px;
   left:-10px;
+  text_aign:justify;
 }
 
 .mini-intro {
