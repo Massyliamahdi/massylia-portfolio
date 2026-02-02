@@ -416,14 +416,13 @@ body {
   width: 120px;
   height: auto;
   position: relative;
-  left: 40px;
+  left: 50px;
 }
 
 .hello-text-wrapper {
   position: relative;
   left: 290px; /* déplace tout le texte vers la droite */
   max-width: 500px;
-  text-align: left;
  
 }
 
@@ -435,7 +434,7 @@ body {
   color: #2D2D2D;
   margin-left: auto;
   position: relative;
-  top: -40px;
+  top: -60px;
   left:-10px;
 }
 
@@ -446,5 +445,6 @@ body {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
