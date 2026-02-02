@@ -416,12 +416,14 @@ body {
   width: 120px;
   height: auto;
   position: relative;
-  left: 30px;
+  left: 40px;
 }
 
 .hello-text-wrapper {
   position: relative;
   left: 290px; /* déplace tout le texte vers la droite */
+  max-width: 500px;
+  text-align: left;
  
 }
 
@@ -433,16 +435,16 @@ body {
   color: #2D2D2D;
   margin-left: auto;
   position: relative;
-  top: -35px;
+  top: -40px;
   left:-10px;
 }
 
 .mini-intro {
   font-size: 1.3rem;
-  line-height: 1.5;
+  line-height: 1.7;
   color: #444;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 10px;
 }
 
