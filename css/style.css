@@ -326,12 +326,12 @@ body {
   width: 120px;
   height: auto;
   position: relative;
-  left: 90px;
+  left: 100px;
 }
 
 .hello-text-wrapper {
   position: relative;
-  left: 300px; /* déplace tout le texte vers la droite */
+  left: 400px; /* déplace tout le texte vers la droite */
 
  
 }
