@@ -331,7 +331,8 @@ body {
 
 .hello-text-wrapper {
   position: relative;
-  left: 290px; /* déplace tout le texte vers la droite */
+  max-width: 900px;
+  margin-left: 290px; /* déplace tout le texte vers la droite */
 
  
 }
@@ -357,5 +358,6 @@ body {
   margin-right: 0;
   margin-bottom: 10px;
   text-align: left;
+  max-width: 800px; 
 }
 
