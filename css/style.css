@@ -346,7 +346,7 @@ body {
   position: relative;
   top: -130px;
   left:-15px;
-  t
+  white-space: nowrap;
 }
 
 .mini-intro {
