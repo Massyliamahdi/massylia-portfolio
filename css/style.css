@@ -13,14 +13,14 @@ body {
   color: #eb0c74;
 }
 /* ===== LANGUAGE TOGGLE BUTTON ===== */
-.language-toggle {
+.language-switch{
   position: fixed;
   top: 20px;
   right: 24px;
   z-index: 10;   /* 🔥 AU-DESSUS de tout */
 }
 
-.language-toggle button {
+.language-switch button {
   background-color: transparent;
   color: #2D2D2D;
   border-color: #2D2D2D;
@@ -34,7 +34,7 @@ body {
   transition: all 0.2s ease;
 }
 
-.language-toggle button:hover {
+.language-switch button:hover {
   transform: translateY(-1px);
   box-shadow: 0 10px 26px rgba(0,0,0,0.2);
   background-color: #eb0c74;
